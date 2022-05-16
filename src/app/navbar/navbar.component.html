@@ -1,0 +1,41 @@
+
+<div class="header-container" (scroll)="getHeaderFixed();">
+    <div class="header-wrapper">
+        <div class="ac-logo-container">
+            <img src="../../assets/images/aux-logo.svg" alt="" width="30px">
+            <h4>AUXSWOT</h4>
+        </div>
+        <nav class="nav-wrapper">
+            <ul class="nav-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Partner</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="pageMobileIcons" (toggle)="getToggleMoibileMenu();">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+    </div>
+    <div class="mobileDropDownMenuContainer" (resize)="getResizeWindow ();">
+        <nav class="mobileDropDownNavWrapper">
+            <ul class="dropDownNaItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Partner</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</div>

@@ -1,0 +1,53 @@
+@import "../../assets/styles/app.scss";
+@import "../../assets/styles/responsive.scss";
+
+.work-galleryContainer {
+  background: rgb(131, 67, 141);
+  background: linear-gradient(
+    57deg,
+    rgba(131, 67, 141, 1) 0%,
+    rgba(115, 139, 178, 1) 64%,
+    rgba(102, 198, 207, 1) 100%
+  );
+  font-family: $secondary-font;
+  padding: 100px 100px;
+  .work-galleryWrapper {
+    max-width: $max-with;
+    margin: 0 auto;
+    padding: 0 100px;
+    .work-galleryTextContent {
+      text-align: center;
+      margin-bottom: 100px;
+      h1 {
+        margin-bottom: 16px;
+        color: $f1-color;
+      }
+      p {
+        margin-bottom: 16px;
+        line-height: 35px;
+        color: $ddd-color;
+        font-weight: 400;
+      }
+    }
+    .work-galleryCardWrapper {
+      .work-galleryCardRow {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+        margin-bottom: 50px;
+        .work-galleryCardCol {
+          cursor: pointer;
+          transition: transform 0.4s cubic-bezier(0.65, -0.1, 0.27, 1.55) 0s;
+          transition: 0.25s;
+          &:hover {
+            transform: scale(1.1);
+          }
+          // img {
+          //   // border-radius: 10px;
+            
+          // }
+        }
+      }
+    }
+  }
+}

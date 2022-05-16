@@ -1,0 +1,49 @@
+@import "../../assets/styles/app.scss";
+@import "../../assets/styles/responsive.scss";
+
+.globalCommContainer {
+  background: rgb(131, 67, 141);
+  background: linear-gradient(
+    57deg,
+    rgba(131, 67, 141, 1) 0%,
+    rgba(115, 139, 178, 1) 64%,
+    rgba(102, 198, 207, 1) 100%
+  );
+  font-family: $secondary-font;
+  .globalCommWrapper {
+    max-width: $max-with;
+    margin-inline: auto;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    .globalTextContent {
+      h1 {
+        color: $f1-color;
+        margin-bottom: 16px;
+      }
+      p {
+        color: $ddd-color;
+        line-height: 35px;
+        margin-bottom: 16px;
+        font-weight: 200;
+      }
+      #globalCommunity-buttonLearnMore {
+        border: none;
+        background-color: #882781;
+        color: #fff;
+        padding: 10px 30px;
+        margin-right: 12px;
+        cursor: pointer;
+        font-family: "Sora", sans-serif;
+        transition: transform 0.4s cubic-bezier(0.65, -0.1, 0.27, 1.55) 0s;
+        transition: 0.25s;
+        &:hover {
+            background-color: #be39b6;
+            transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

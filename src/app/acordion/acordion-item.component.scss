@@ -1,0 +1,48 @@
+@import "../../assets/styles/app.scss";
+@import "../../assets/styles/responsive.scss";
+
+.acordionContainer {
+  padding: 0px 100px;
+  margin: 24px 0;
+  .acordionWrapper {
+    max-width: $max-with;
+    margin: 0 auto;
+    padding: 0 100px;
+    .acor-header {
+      width: 100%;
+      border-top: 1px solid $f1-color;
+      border-bottom: 1px solid $f1-color;
+      display: flex;
+      padding: 5px 10px;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      .headerTitle {
+        overflow-wrap: break-word;
+        overflow: auto;
+        width: 100%;
+        h3 {
+          font-weight: 400;
+          color: $dark-color;
+          margin: 0;
+        }
+      }
+      .arrow-icons {
+        span {
+          display: flex;
+          align-items: center;
+          user-select: none;
+        }
+      }
+    }
+
+    .acor-body {
+      width: 100%;
+      min-height: 50px;
+      line-height: 3;
+      padding: 5px 10px;
+      color: #757575;
+
+    }
+  }
+}

@@ -1,0 +1,105 @@
+@import "../../assets/styles/app.scss";
+@import "../../assets/styles/responsive.scss";
+
+.page-aboutUs-container {
+  background-color: #fff8fe;
+  font-family: $secondary-font;
+  .aboutUs-wrapper {
+    max-width: $max-with;
+    margin: 0 auto;
+    padding: 0px 100px;
+
+
+    .profitBox-container {
+        .profitBoxWrapper {
+            padding: 100px 0;
+            .profitBoxRow {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 50px;
+                .profitBoxCol {
+                    background-color: $white-color;
+                    padding: 30px 50px;
+                    box-shadow: 0px 0px 5px #e2e2e2;
+                    border: 1px solid #e5e7eb;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: transform 0.4s cubic-bezier(0.65, -0.1, 0.27, 1.55) 0s;
+                    transition: 0.25s;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                    h4 {
+                        text-align: center;
+                        color: #882781;
+                        margin-bottom: 16px;
+                    }
+                    p {
+                        text-align: center;
+                        color:#882781;
+                        font-weight: 200;
+                        margin-bottom: 16px;
+                    }
+                    .profitICons {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .aboutUs-text-content {
+      margin-bottom: 100px;
+      text-align: center;
+      h1 {
+        margin-bottom: 16px;
+        color: $dark-color;
+      }
+      p {
+        line-height: 35px;
+        color: #757575;
+        font-weight: 300;
+      }
+    }
+    .aboutUs-card-wrapper {
+      .aboutUs-card-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        .aboutUs-card-col {
+          display: flex;
+          gap: 30px;
+          background: $white-color;
+          padding: 30px 40px;
+          box-shadow: 0px 0px 5px #e2e2e2;
+          border: 1px solid #e5e7eb;
+          border-radius: 10px;
+          cursor: pointer;
+          margin-bottom: 50px;
+          transition: transform 0.4s cubic-bezier(0.65, -0.1, 0.27, 1.55) 0s;
+          transition: 0.25s;
+          &:hover {
+            transform: scale(1.1);
+          }
+          .cardDescription {
+            h2 {
+              margin-bottom: 16px;
+            }
+            p {
+              line-height: 35px;
+              font-size: $md-font-size;
+              font-weight: 300;
+              margin-bottom: 16px;
+              color: #757575;
+            }
+            a {
+              color: $dark-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

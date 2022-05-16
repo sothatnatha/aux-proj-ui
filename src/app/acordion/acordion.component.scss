@@ -1,0 +1,14 @@
+@import "../../assets/styles/app.scss";
+
+.acordinTextContainer {
+  .acordinTextWrapper {
+    text-align: center;
+    margin-bottom: 16px;
+    .acordinTextContent {
+      h1 {
+        color: $dark-color;
+        margin-bottom: 16pxå;
+      }
+    }
+  }
+}

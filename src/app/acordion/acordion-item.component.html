@@ -1,0 +1,20 @@
+<div class="acordionContainer">
+    <div class="acordionWrapper">
+            <div class="acor-header" (click)="toggle();">
+                <div class="headerTitle">
+                    <h3>{{title}}</h3>
+                </div>
+                <div class="arrow-icons" [@rotateState]="!showBody? 'default': 'rotated'">
+                    <span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+                </div>
+            </div>
+            <div [@smoothCollapse]="!showBody? 'init': 'final' ">
+                <div class="acor-body">
+                    <ng-content></ng-content>
+                </div>
+
+            </div>
+    </div>
+</div>
