@@ -28,13 +28,19 @@ export class NavbarComponent implements OnInit {
           mobileDropDownNav?.classList.remove(
             'mobileDropDownMenuContainer-active'
           );
+          const bodyRef = document.getElementsByTagName('body');
+          bodyRef[0].style.overflow = 'unset';
         } else {
           mobileDropDownNav?.classList.add(
             'mobileDropDownMenuContainer-active'
           );
+          const bodyRef = document.getElementsByTagName('body');
+          bodyRef[0].style.overflow = 'hidden';
         }
         isToggleMenuClicked = !isToggleMenuClicked;
       });
+
+    
   }
 
   getHeaderFixed() {
@@ -50,13 +56,11 @@ export class NavbarComponent implements OnInit {
 
   getResizeWindow() {
     window.addEventListener('resize', function (e) {
-      console.log(this.innerWidth);
       const resizeMobileMenu = document.querySelector(
         '.mobileDropDownMenuContainer'
       );
       if (this.innerWidth > 991.98) {
         resizeMobileMenu?.classList.add('mobileDropDownMenuContainer-Inactive');
-        console.log(resizeMobileMenu);
       } else {
         resizeMobileMenu?.classList.remove(
           'mobileDropDownMenuContainer-Inactive'
