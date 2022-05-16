@@ -1,0 +1,464 @@
+@media screen and (max-width: 575.98px) {
+  .header-container {
+    .header-wrapper {
+      padding: 10px 30px !important;
+      .nav-wrapper {
+        display: none !important;
+      }
+    }
+    .pageMobileIcons {
+      display: block !important;
+    }
+  }
+  //
+  .page-background {
+    .introductionContent-Wrapper {
+      display: grid !important;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0 !important;
+      padding: 0 30px !important;
+
+      .intro-image {
+        img {
+          width: 100% !important;
+        }
+      }
+      .intro-Text {
+        width: 100% !important;
+        text-align: center;
+        h1 {
+          font-size: 27px !important;
+        }
+        p {
+          font-size: 12px !important;
+        }
+      }
+      .intro-butons-container {
+        button {
+          font-size: $sm-font-size !important;
+          padding: 10px 20px !important;
+        }
+      }
+    }
+  }
+
+  // profitbox resp
+  .page-aboutUs-container {
+    .aboutUs-wrapper {
+      padding: 0 30px !important;
+      .profitBox-container {
+        .profitBoxWrapper {
+          .profitBoxRow {
+            grid-template-columns: repeat(1, 1fr) !important;
+          }
+        }
+      }
+      .aboutUs-card-wrapper {
+        .aboutUs-card-row {
+          grid-template-columns: repeat(1, 1fr) !important;
+          .aboutUs-card-col {
+            display: block !important;
+            text-align: center;
+
+            .cardDescription {
+              p {
+                font-size: 12px;
+              }
+            }
+            .cardIcons {
+              img {
+                margin-bottom: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .globalCommContainer {
+    .globalCommWrapper {
+      grid-template-columns: repeat(1, 1fr) !important;
+      padding: 100px 30px !important;
+      .globalTextContent {
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      .globalImgWrapper {
+        img {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  //
+  .choosUsContainer {
+    .chooseUsWrapper {
+      padding: 100px 30px !important;
+
+      .chooseUsTextContent {
+      }
+      .chooseUs-Card-Container {
+        .chooseUs-Card-row {
+          grid-template-columns: repeat(1, 1fr) !important;
+          .chooseUs-Card-col {
+            width: 100%;
+            .chooseUs-icons {
+              img {
+                width: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .work-galleryContainer {
+    padding: 100px 30px !important;
+    .work-galleryWrapper {
+      padding: 0 !important;
+      .work-galleryTextContent {
+        p {
+          font-size: 12px !important;
+        }
+      }
+      .work-galleryCardWrapper {
+        .work-galleryCardRow {
+          grid-template-columns: repeat(2, 1fr) !important;
+
+          .work-galleryCardCol {
+            img {
+              width: 100% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .pageBrandContainer {
+    padding: 0 30px !important;
+    .pageBrandWrapper {
+      padding: 0 30px !important;
+      grid-template-columns: repeat(1, 1fr) !important;
+
+      .pageBrandImagesWrapper {
+        .pageBrand-row {
+          flex-wrap: wrap !important;
+          .pageBrand-col {
+            margin: 0 auto;
+            text-align: center;
+            img {
+              width: 200px !important;
+            }
+          }
+        }
+      }
+      .pageBrandTxtContent {
+      }
+    }
+  }
+
+  //
+  .pagePlanContainer {
+    .pagePlanWrapper {
+      padding: 0 30px !important;
+      .pagePlanTxtContent {
+      }
+      .pagePlanCardContainer {
+        .pagePlanCardWrapper {
+          .pagePlanCardRow {
+            grid-template-columns: repeat(1, 1fr) !important;
+            .pagePlanCardCol {
+              padding: 30px 30px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .pageSubscribeContainer {
+    padding: 100px 0px !important;
+    .pageSubscribeWrapper {
+      padding: 0 30px !important;
+      p {
+        font-size: 12px !important;
+      }
+      .frmSubscribe {
+        input,
+        textarea,
+        button {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  //
+  .acordionContainer {
+    padding: 0 !important;
+    .acordionWrapper {
+      padding: 0 !important;
+      .acor-header {
+        .headerTitle {
+          h3 {
+            font-size: 14px !important;
+          }
+        }
+      }
+      .acor-body {
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  //
+  .footer-container {
+    .footer-wrapper {
+      padding: 50px 30px !important;
+      .footer-row {
+        grid-template-columns: repeat(1, 1fr) !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .header-container {
+    .header-wrapper {
+      padding: 10px 30px !important;
+      .nav-wrapper {
+        display: none !important;
+      }
+    }
+    .pageMobileIcons {
+      display: block !important;
+    }
+  }
+
+  //
+
+  .page-background {
+    .introductionContent-Wrapper {
+      display: grid !important;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0 !important;
+      padding: 0 30px !important;
+
+      .intro-image {
+        img {
+          width: 100% !important;
+        }
+      }
+      .intro-Text {
+        width: 100% !important;
+        text-align: center;
+        h1 {
+          font-size: 27px !important;
+        }
+        p {
+          font-size: 12px !important;
+        }
+      }
+      .intro-butons-container {
+        button {
+          font-size: $sm-font-size !important;
+          padding: 10px 20px !important;
+        }
+      }
+    }
+  }
+  // profitbox resp
+  .page-aboutUs-container {
+    .aboutUs-wrapper {
+      padding: 0 30px !important;
+      .profitBox-container {
+        .profitBoxWrapper {
+          .profitBoxRow {
+            grid-template-columns: repeat(1, 1fr) !important;
+          }
+        }
+      }
+      .aboutUs-card-wrapper {
+        .aboutUs-card-row {
+          grid-template-columns: repeat(1, 1fr) !important;
+          .aboutUs-card-col {
+            display: block !important;
+            text-align: center;
+
+            .cardDescription {
+              p {
+                font-size: 12px;
+              }
+            }
+            .cardIcons {
+              img {
+                margin-bottom: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .globalCommContainer {
+    .globalCommWrapper {
+      grid-template-columns: repeat(1, 1fr) !important;
+      padding: 100px 30px !important;
+      .globalTextContent {
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      .globalImgWrapper {
+        img {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  //
+  .choosUsContainer {
+    .chooseUsWrapper {
+      padding: 100px 30px !important;
+
+      .chooseUsTextContent {
+      }
+      .chooseUs-Card-Container {
+        .chooseUs-Card-row {
+          grid-template-columns: repeat(1, 1fr) !important;
+          .chooseUs-Card-col {
+            width: 100%;
+            .chooseUs-icons {
+              img {
+                width: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .work-galleryContainer {
+    padding: 100px 30px !important;
+    .work-galleryWrapper {
+      padding: 0 !important;
+      .work-galleryTextContent {
+        p {
+          font-size: 12px !important;
+        }
+      }
+      .work-galleryCardWrapper {
+        .work-galleryCardRow {
+          grid-template-columns: repeat(2, 1fr) !important;
+
+          .work-galleryCardCol {
+            img {
+              width: 100% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .pageBrandContainer {
+    padding: 0 30px !important;
+    .pageBrandWrapper {
+      padding: 0 30px !important;
+      grid-template-columns: repeat(1, 1fr) !important;
+
+      .pageBrandImagesWrapper {
+        .pageBrand-row {
+          flex-wrap: wrap !important;
+          .pageBrand-col {
+            margin: 0 auto;
+            text-align: center;
+            img {
+              width: 200px !important;
+            }
+          }
+        }
+      }
+      .pageBrandTxtContent {
+      }
+    }
+  }
+
+  //
+  .pagePlanContainer {
+    .pagePlanWrapper {
+      padding: 0 30px !important;
+      .pagePlanTxtContent {
+      }
+      .pagePlanCardContainer {
+        .pagePlanCardWrapper {
+          .pagePlanCardRow {
+            grid-template-columns: repeat(1, 1fr) !important;
+            .pagePlanCardCol {
+              padding: 30px 30px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .pageSubscribeContainer {
+    padding: 100px 0px !important;
+    .pageSubscribeWrapper {
+      padding: 0 30px !important;
+      p {
+        font-size: 12px !important;
+      }
+      .frmSubscribe {
+        input,
+        textarea,
+        button {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  //
+  .acordionContainer {
+    padding: 0 !important;
+    .acordionWrapper {
+      padding: 0 !important;
+      .acor-header {
+        .headerTitle {
+          h3 {
+            font-size: 14px !important;
+          }
+        }
+      }
+      .acor-body {
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  //
+  .footer-container {
+    .footer-wrapper {
+      padding: 50px 30px !important;
+      .footer-row {
+        grid-template-columns: repeat(1, 1fr) !important;
+      }
+    }
+  }
+}
