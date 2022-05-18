@@ -3,19 +3,22 @@
         <div class="profitBox-container">
             <div class="profitBoxWrapper">
                 <div class="button-conatainer">
-                    <button class="btn btn-left" (click)="onBackward()">
-                        <span class="material-symbols-outlined" style="display: flex;">
-                            chevron_left
-                        </span>
-                    </button>
-                    <button class="btn btn-right" (click)="onForward()">
-                        <span class="material-symbols-outlined" style="display: flex;">
-                            chevron_right
-                        </span>
-                    </button>
-
+                    <ng-container *ngIf="scrollableContainer?.scrollLeft != 0">
+                        <button class="btn btn-left" (click)="onBackward()">
+                            <span class="material-symbols-outlined" style="display: flex;">
+                                chevron_left
+                            </span>
+                        </button>
+                    </ng-container>
+                    <ng-container *ngIf="scrollableContainer?.scrollLeft != scrollLeftMax" >
+                        <button class="btn btn-right" (click)="onForward()">
+                            <span class="material-symbols-outlined" style="display: flex;">
+                                chevron_right
+                            </span>
+                        </button>
+                    </ng-container>
                 </div>
-                <div class="profitBoxRow box-profit-row" (scroll)="scrollEve($event);" #scrollableContainer>
+                <div class="profitBoxRow box-profit-row" (scroll)="onScroll()" #scrollableContainer>
                     <div class="profitBoxCol box-profit-col">
                         <h4>169</h4>
                         <p>Total Clients</p>
@@ -115,7 +118,7 @@
                             <img src="../../assets/images/profits.png" alt="" width="50px">
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

@@ -50,6 +50,9 @@
         .profitBoxWrapper {
           .profitBoxRow {
             grid-template-columns: repeat(1, 1fr) !important;
+            .profitBoxCol{
+              width: 100% !important;
+            }
           }
         }
       }
