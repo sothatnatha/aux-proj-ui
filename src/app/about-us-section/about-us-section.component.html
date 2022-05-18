@@ -2,7 +2,42 @@
     <div class="aboutUs-wrapper">
         <div class="profitBox-container">
             <div class="profitBoxWrapper">
-                <div class="profitBoxRow">
+                <div class="button-conatainer">
+                    <button class="btn btn-left" (click)="onBackward()">
+                        <span class="material-symbols-outlined" style="display: flex;">
+                            chevron_left
+                        </span>
+                    </button>
+                    <button class="btn btn-right" (click)="onForward()">
+                        <span class="material-symbols-outlined" style="display: flex;">
+                            chevron_right
+                        </span>
+                    </button>
+
+                </div>
+                <div class="profitBoxRow box-profit-row" (scroll)="scrollEve($event);" #scrollableContainer>
+                    <div class="profitBoxCol box-profit-col">
+                        <h4>169</h4>
+                        <p>Total Clients</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/customer.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>4,459</h4>
+                        <p>Total Deposits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/deposit.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>11,449</h4>
+                        <p>Total Profits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/profits.png" alt="" width="50px">
+                        </div>
+                    </div>
+
                     <div class="profitBoxCol">
                         <h4>169</h4>
                         <p>Total Clients</p>
@@ -24,6 +59,63 @@
                             <img src="../../assets/images/profits.png" alt="" width="50px">
                         </div>
                     </div>
+                    <div class="profitBoxCol">
+                        <h4>4,459</h4>
+                        <p>Total Deposits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/deposit.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>11,449</h4>
+                        <p>Total Profits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/profits.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>4,459</h4>
+                        <p>Total Deposits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/deposit.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>11,449</h4>
+                        <p>Total Profits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/profits.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>4,459</h4>
+                        <p>Total Deposits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/deposit.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>11,449</h4>
+                        <p>Total Profits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/profits.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>4,459</h4>
+                        <p>Total Deposits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/deposit.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    <div class="profitBoxCol">
+                        <h4>11,449</h4>
+                        <p>Total Profits</p>
+                        <div class="profitICons">
+                            <img src="../../assets/images/profits.png" alt="" width="50px">
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -55,12 +147,12 @@
                     <div class="cardDescription">
                         <h2>Great Presentation</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dolor, sit recusandae quod
-                        quis pariatur molestias quia expedita minima vero repellendus</p>
+                            quis pariatur molestias quia expedita minima vero repellendus</p>
                         <a href="" id="read-more-contents">Read More</a>
                     </div>
                 </div>
             </div>
-          
+
             <div class="aboutUs-card-row">
                 <div class="aboutUs-card-col">
                     <div class="cardIcons">
@@ -69,7 +161,7 @@
                     <div class="cardDescription">
                         <h2>Professional Team</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dolor, sit recusandae quod
-                        quis pariatur molestias quia expedita minima vero repellendus</p>
+                            quis pariatur molestias quia expedita minima vero repellendus</p>
                         <a href="" id="read-more-contents">Read More</a>
                     </div>
                 </div>
@@ -80,7 +172,7 @@
                     <div class="cardDescription">
                         <h2>Save Time & Money</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dolor, sit recusandae quod
-                        quis pariatur molestias quia expedita minima vero repellendus</p>
+                            quis pariatur molestias quia expedita minima vero repellendus</p>
                         <a href="" id="read-more-contents">Read More</a>
                     </div>
                 </div>

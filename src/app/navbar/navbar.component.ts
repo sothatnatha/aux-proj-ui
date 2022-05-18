@@ -61,6 +61,7 @@ export class NavbarComponent implements OnInit {
       );
       if (this.innerWidth > 991.98) {
         resizeMobileMenu?.classList.add('mobileDropDownMenuContainer-Inactive');
+        
         const bodyRef = document.getElementsByTagName('body');
         bodyRef[0].style.overflow = 'unset';
       } else {
